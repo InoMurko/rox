@@ -44,7 +44,7 @@ defmodule Rox.Mixfile do
 
   defp rustler_crates do
     [
-      rox_nif: [path: "native/rox_nif", cargo: :system, default_features: false, features: [], mode: :release],
+      rox_nif: [path: "native/rox_nif", cargo: :system, default_features: false, features: [], mode: :debug],
     ]
   end
 
